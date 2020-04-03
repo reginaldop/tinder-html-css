@@ -133,16 +133,15 @@ body {
 	font-size: 26px;
 }
 
-.content .card .local img {
-	width: 18px;
-	height: 18px;
-	margin: 5px 0;
-}
-
 .content .card .local {
 	display: flex;
 	align-items: center;
 	padding: 0 0 20px 0;
+}
+
+.content .card .local i {
+	margin: 5px 0;
+	color: #fff;
 }
 
 .content .card .local span {
@@ -157,6 +156,21 @@ body {
 	align-items: center;
 }
 
+.content .buttons .no i {
+	color: #fd2e79;
+	font-size: 33px;
+}
+
+.content .buttons .star i {
+	color: #2bb1ff;
+	font-size: 22px;
+}
+
+.content .buttons .heart i {
+	color: #11e298;
+	font-size: 32px;
+}
+
 .content .buttons .no,
 .content .buttons .star,
 .content .buttons .heart {
@@ -166,6 +180,7 @@ body {
 	box-shadow: 0 1px 10px 0 rgba(0, 20, 20, 0.1);
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	border-radius: 70px;
 	margin: 4px;
 	transition: 0.2s transform;
